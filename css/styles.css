@@ -1,0 +1,95 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: Arial;
+}
+
+body {
+  background-color: #73649d;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+h1 {
+  color: #3a0ca3;
+}
+
+.i {
+  margin-top: 1rem;
+  gap: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.i, li {
+  width: 80vw;
+}
+
+ul {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+input {
+  width: 100%;
+  padding: 0.4rem;
+  border-radius: 0.4rem;
+  outline: none;
+  font-size: 1.3rem;
+  border: 1px solid black;
+  background-color: #b7a6e6;
+}
+
+#btn-add {
+  padding: 0px 0.2rem;
+  border-radius: 0.4rem;
+  border: none;
+  background-color: #5e548e;
+  color: aliceblue;
+}
+
+#btn-add:hover {
+  opacity: 0.8;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.8rem;
+  background-color: #9f86c0;
+  padding: 0.4rem;
+  border-radius: 0.4rem;
+  transition: all 0.5s;
+}
+
+li.checked > p {
+  text-decoration: line-through;
+  color: rgb(255, 255, 255);
+}
+
+li.checked {
+  background-color: #5e548e;
+}
+
+button {
+  cursor: pointer;
+}
+
+li > button {
+  border: none;
+  background-color: #5e548e;
+  border-radius: 0.2rem;
+  padding: 0.2rem;
+}
+
+li > button:hover {
+  background-color: #bdb2ff;
+}
+
+/*# sourceMappingURL=styles.css.map */
